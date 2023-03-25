@@ -1,5 +1,10 @@
-@import "tailwindcss/base";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@import "tailwindcss/components";
-
-@import "tailwindcss/utilities";
+.btn {
+  @apply rounded-md p-2 font-sans  m-3 text-white;
+}
+.btn-blue {
+  @apply bg-blue-300 hover:bg-blue-400 active:bg-blue-500;
+}

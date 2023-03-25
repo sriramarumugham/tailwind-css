@@ -7,6 +7,7 @@ module.exports = {
           100: '#243c5a',
         }
       },
+     
     },
     plugins: [],
   }
